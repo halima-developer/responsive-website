@@ -249,6 +249,69 @@ nav ul li a:hover, nav ul li a.active{
 .single-advice a:hover{
   background-color: wheat;
 }
+
+/* contact section style code here */
+
+#contact-section{
+  background-image: url('images/contact.jpg');
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+form{
+  background-color: #2e357a;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding:50px 60px;
+  border: 6px solid #4497D3;
+  border-radius:10px;
+}
+form h2{
+   color: white;
+   font-size:29px;
+   letter-spacing: 0.1em;
+   margin-bottom: 20px;
+}
+form p{
+  color: white;
+  letter-spacing: 0.1em;
+}
+.form-input{
+  background: none;
+  border: none;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding:25px 0;
+  margin: 40px 0;
+  color: white;
+  font-size: 20px;
+  border-bottom:4px solid #4497D3;
+}
+.form-input::placeholder{
+  font-size: 20px;
+  font-weight: bold;
+  color: #4497D3;
+}
+form .btn{
+  padding: 5px 40px;
+  font-size:16px;
+  background: none;
+  color: white;
+  outline-style: ridge;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form .btn:hover{
+  background-color: #16213E;
+}
+
+
+
+
 /* responsive code start */
 
 @media only screen and (max-width:940px){
@@ -331,8 +394,15 @@ nav ul li a:hover, nav ul li a.active{
 .single-advice{
   margin-top: 50px;
 }
-
 /* advice section code finished */
+
+  /* contact section code start */
+  form{
+    background-color: #2e357a;
+    max-width: 90%;
+    padding:20px 30px;
+  }
+  /* contact section code finished */
 
  }
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -371,17 +441,21 @@ nav ul li a:hover, nav ul li a.active{
 /* about section code finished */
 /* advice section  Responsive code start */
 .advice-parent{
-  display: block;
+  display: flex;
   margin-left:70px;
   margin-right:70px;
 }
-.advice-img-box img{
-  width: 100%;
+.advice-icon{
+  text-align: center;
 }
-.single-advice{
-  margin-top: 50px;
-}
+  /* advice section code finished */
 
-/* advice section code finished */
+  /* contact section code start */
+  form{
+    background-color: #2e357a;
+    max-width:90%;
+    padding:40px 50px;
   
+  }
+  /* contact section code finished */
 }
