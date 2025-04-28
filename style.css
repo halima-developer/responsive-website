@@ -344,6 +344,34 @@ form .btn:hover{
   line-height:1.5;
   letter-spacing: 0.1em;
 }
+/* seventh/take care section style code start */
+  .seven-section{
+    padding: 100px 0;
+  }
+  .take-care-parent{
+    display: flex;
+    just0px;ify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap:30px;
+  }
+  .takecare-img-div{
+    width: 100%;
+  }
+  .takecare-img-div img{
+    width: 100%;
+  }
+  .single-takecare h3{
+    font-size:30px;
+  }
+  .single-takecare p{
+    margin:20px 0;
+  }
+  .single-takecare ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+  }
 
 
 
@@ -453,6 +481,17 @@ form .btn:hover{
   }
   /* match/six responsive code finised */
 
+  /* sever/take care section responsive code start */
+  .take-care-parent{
+    display: block;
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .single-takecare{
+    margin-bottom:70px;
+  }
+  /* sever/take care section responsive code finished */
+
 
  }
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -520,4 +559,16 @@ form .btn:hover{
     text-align: center;
   }
   /* match/six responsive code finised */
+  
+  /* sever/take care section responsive code start */
+  .take-care-parent{
+    display: block;
+    margin-left:70px;
+    margin-right:70px;
+  }
+  .single-takecare{
+    margin-bottom:80px;
+  }
+  /* sever/take care section responsive code finished */
+
 }
