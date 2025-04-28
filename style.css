@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wdth@98.8&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -350,7 +351,7 @@ form .btn:hover{
   }
   .take-care-parent{
     display: flex;
-    just0px;ify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
@@ -372,7 +373,52 @@ form .btn:hover{
     list-style-position: inside;
     margin: 10px 0;
   }
+  /* footer section code start */
+  .footer-section{
+    background-color: #154360;
+    padding: 100px 0 50px 0;
+    color: white;
 
+  }
+   .footer-single-parent{
+    display:flex;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+   }
+   .footer-single-div{
+    width: 100%;
+   }
+   .footer-single-div span{
+     color: yellow;
+     font-size:20px;
+   }
+   .footer-single-div h5{
+      margin-bottom: 20px;
+      letter-spacing: 0.2em;
+   }
+   .footer-single-div:nth-child(2)p{
+      margin: 20px;
+   }
+   .single-footer-2 p{
+    margin: 15px;
+   }
+    .single-footer-2 a{
+     text-decoration: none;
+     color: white;
+   }
+   .single-footer-3 i{
+    background-color:#17202A;
+    padding:10px;
+    font-size:20px;
+    border-radius: 2px;
+    margin-right: 10px;
+   }
+   .footer-div p{
+    text-align: center;
+    font-size: 14px;
+   }
 
 
 
@@ -492,6 +538,17 @@ form .btn:hover{
   }
   /* sever/take care section responsive code finished */
 
+  /* footer section responsive code start */
+  .footer-single-parent{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .footer-single-div{
+    text-align: center;
+  }
+
 
  }
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -559,7 +616,7 @@ form .btn:hover{
     text-align: center;
   }
   /* match/six responsive code finised */
-  
+
   /* sever/take care section responsive code start */
   .take-care-parent{
     display: block;
@@ -571,4 +628,12 @@ form .btn:hover{
   }
   /* sever/take care section responsive code finished */
 
+  /* footer section responsive code start */
+  .footer-single-parent{
+    margin-left:70px;
+    margin-right:70px;
+  }
+  .single-footer-3 i{
+    margin-bottom: 10px;
+  }
 }
