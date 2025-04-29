@@ -53,7 +53,6 @@ nav ul li a:hover, nav ul li a.active{
     display: none;
 }
 
-
 /* header style code start */
  header{
         background-image: url('images/banner.jpg');
@@ -64,7 +63,7 @@ nav ul li a:hover, nav ul li a.active{
         background-position: center center;
  }
  
- /* first section of main style code here */
+ /* first section/ service section  style code here */
     .first-section{
       background-color: #16213E;
       padding-bottom: 100px;
@@ -420,8 +419,6 @@ form .btn:hover{
     font-size: 14px;
    }
 
-
-
 /* responsive code start */
 
 @media only screen and (max-width:940px){
@@ -549,7 +546,6 @@ form .btn:hover{
     text-align: center;
   }
 
-
  }
 @media only screen and (min-width:689px) and (max-width:1099px){
  .single-item-parent{
@@ -557,6 +553,7 @@ form .btn:hover{
    grid-template-columns: repeat(2, 1fr);
    grid-gap:20px;
    width: 100%;
+  
 }
 /* smart area responsive code */
 .smart-image img{
@@ -637,3 +634,4 @@ form .btn:hover{
     margin-bottom: 10px;
   }
 }
+  /* footer section responsive code finished */
